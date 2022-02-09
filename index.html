@@ -11,38 +11,50 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
+<form>
 
       <!-- Add a label for 'fullname'-->
-
+  <label for="Full name">Full Name </label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+    <input type="text" id="Fullname " placeholder="Enter Name" required>
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
-
       <!-- Add a label for 'email'-->
+    <label for="Email"> Email </label>
+    <input type="email" id="Email" placeholder="Enter Email" required>
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
 
       <!-- Add a label for 'phone'-->
-
+    <label for="Phone Number ">Phone</label>
+    <input type="number" id="phone" placeholder="Enter Telephone (optional)" required>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
 
 
       <!-- Add a label for 'message'-->
+    <label for="Message">Message</label>
+    <input type="text" id="message" textarea placeholder="Enter Message">
 
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
-
-
-      <!-- Add an input with the type set to 'submit' -->
-
+<div>
+  Gender
+  <label for="Male">Male</label>
+      <input type="checkbox" id="checkbox">
+      <label for="Female">Female</label>
+      <input type="checkbox" id="checkbox">
+      <label for="other">other</label>
+      <input type="checkbox" id="checkbox">
     
+    </div>
+      <!-- Add an input with the type set to 'submit' -->
+<input type="submit">
+    </form> 
   </body>
 </html>
